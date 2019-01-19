@@ -1,7 +1,7 @@
-# AppEngine Standard + Gradle + SpringBoot + SQLcloud
+# AppEngine Standard + SpringBoot + Gradle  + SQLcloud
 
 Ejemplo de un proyecto de Spring boot para el appengine standard de JAVA 
 
 Requisitos:
 
-*Gradle
+  - Gradle
