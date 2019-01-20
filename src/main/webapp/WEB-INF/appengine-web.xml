@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<appengine-web-app xmlns="http://appengine.google.com/ns/1.0">
+  <runtime>java8</runtime>
+  <application>PROJECT_ID</application>
+  <version>version</version>
+  <threadsafe>true</threadsafe>
+  <service> back </service>
+  <instance-class>B1</instance-class>
+  <manual-scaling>
+    <instances>1</instances>
+  </manual-scaling>
+</appengine-web-app>
+
+<!-- 
+	REVISAR LA DOCUMENTACION DE GOOGLE DEL TIPO DE INSTANCIAS 
+	
+	B1 ESCALADA MANUAL NO PRESENTA LA LIMITACION DE LOS 
+	60 SEGUNDOS PARA UN RESPONSE
+	
+	<instance-class>B1</instance-class>
+	<manual-scaling>
+	  <instances>1</instances>
+	</manual-scaling>
+ -->
